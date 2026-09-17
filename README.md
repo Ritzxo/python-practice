@@ -1,6 +1,3 @@
-# python-practice
-
-
 # Python practice
 
 Exercises and small scripts while I learn Python.
