@@ -46,8 +46,9 @@ def sales_report(sales):
         inventory[item]["stock"] -= quantity
     return(f"Total revenue: ${running_total:.2f}")
 
-add_item("Apple", 0.5, 50)
-add_item("Banana", 0.2, 60)
-sales = {"Apple": 30, "Banana": 20, "Orange": 10} 
-print(sales_report(sales)) 
-print(inventory)
+if __name__ == "__main__":
+    add_item("Apple", 0.5, 50)
+    add_item("Banana", 0.2, 60)
+    sales = {"Apple": 30, "Banana": 20, "Orange": 10}
+    print(sales_report(sales))
+    print(inventory)
